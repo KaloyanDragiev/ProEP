@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        app:cnb_iconColor="@color/White"
+        android:title="Home"/>
+    <item
+        android:id="@+id/menu_jumpingsites"
+        android:enabled="true"
+        android:icon="@drawable/ic_location"
+        app:cnb_iconColor="@color/White"
+        android:title="Jumpingsites"/>
+    <item
+        android:id="@+id/menu_events"
+        android:enabled="true"
+        android:icon="@drawable/ic_event"
+        app:cnb_iconColor="@color/White"
+        android:title="Events"/>
+    <item
+        android:id="@+id/menu_news"
+        android:enabled="true"
+        android:icon="@drawable/ic_news"
+        app:cnb_iconColor="@color/White"
+        android:title="News"/>
+</menu>

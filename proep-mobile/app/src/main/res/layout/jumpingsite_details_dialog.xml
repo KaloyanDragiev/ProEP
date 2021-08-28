@@ -1,0 +1,88 @@
+<LinearLayout android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activites.JumpingSiteDetailsActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+<!--    <TableLayout-->
+<!--        android:id="@+id/tableLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:stretchColumns="1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.13999999">-->
+
+<!--        <TableRow-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+
+
+<!--        </TableRow>-->
+<!--    </TableLayout>-->
+
+    <TextView
+        android:id="@+id/xml_nameLbl"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Rating:"
+        android:hint="Enter number 1-5"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/xml_DialogRatingValue"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:hint="Enter number 1-5"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/xml_des"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Description:"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/xml_DialogDescriptionValue"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Enter description"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/xml_buttonPostLog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add log" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+

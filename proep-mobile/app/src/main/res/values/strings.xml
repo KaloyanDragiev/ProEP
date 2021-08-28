@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cliffin</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="searchLbl">Search...</string>
+    <string name="search_button_desc">Search Button</string>
+    <string name="xml_resetButton">Reset Button</string>
+    <string name="jumpingsite_DisplayName">Jumping Site Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
